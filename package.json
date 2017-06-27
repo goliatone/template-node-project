@@ -1,0 +1,23 @@
+{
+  "name": "template-node-project",
+  "version": "0.0.1",
+  "description": "Template for simple-project-generator to bootstrap node projects ",
+  "main": "prompt.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goliatone/template-node-project.git"
+  },
+  "keywords": [
+    "simple-project-generator",
+    "template"
+  ],
+  "author": "Goliatone <hello@goliatone.com> (http://goliatone.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goliatone/template-node-project/issues"
+  },
+  "homepage": "https://github.com/goliatone/template-node-project#readme"
+}
