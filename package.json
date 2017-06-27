@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/goliatone/template-node-project/issues"
   },
-  "homepage": "https://github.com/goliatone/template-node-project#readme"
+  "homepage": "https://github.com/goliatone/template-node-project#readme",
+  "dependencies": {
+    "slug": "^0.9.1"
+  }
 }
