@@ -18,5 +18,10 @@ module.exports = [
         type: 'input',
         name: 'descripton',
         message: 'Short project descripton'
-    }
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Author email'
+    },
 ];
