@@ -3,6 +3,7 @@
  * %{date}%
  * This is a file generated with love :)
  */
-module.exports = function %{moduleName}%(){
+module.exports[%{moduleName}%] = function(){
     console.log('We are running %{moduleName}%');
+    return true;
 };
