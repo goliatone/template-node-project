@@ -2,7 +2,6 @@
 
 const test = require('tape');
 const sinon = require('sinon');
-const proxyquire = require('proxyquire');
 
 const Module = require('../lib')[%{moduleName}%];
 
