@@ -11,6 +11,14 @@ slug.defaults.modes['rfc3986'] = {
     multicharmap: slug.multicharmap // replace multi-characters
 };
 
+let packages = {
+    'bin': 'core.io-express-server',
+    'authentication': 'core.io-express-auth',
+    'persistence': 'core.io-persistence',
+    'filesync': 'core.io-filesync',
+    'data-manager': 'core.io-data-manager',
+};
+
 module.exports = [
     {
         type: 'input',
