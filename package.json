@@ -1,6 +1,6 @@
 {
   "name": "template-node-project",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Template for simple-project-generator to bootstrap node projects ",
   "main": "prompt.js",
   "scripts": {
