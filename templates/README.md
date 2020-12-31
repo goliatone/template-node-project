@@ -1,5 +1,7 @@
 ## %{name}%
 
+%{description}%
+
 This is a sample project. To get started:
 
 ```
@@ -7,4 +9,5 @@ $ npm i %{moduleName}%
 ```
 
 ## License
-® License %{license}% by %{git.name}%
+
+® License %{license}% %{date.year}% by %{git.name}%
