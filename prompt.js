@@ -23,19 +23,19 @@ module.exports = [
     {
         type: 'input',
         name: 'name',
-        message: 'What\'s the project\'s name?'
+        message: 'What is the name of the project?'
     },{
         type: 'input',
         name: 'moduleName',
         default: function(answer) {
             return slug(answer.name);
         },
-        message: 'What\'s the module\'s name? This will be used for the repo URL'
+        message: 'What is the name of the module? This will be used for the repo URL'
     },
     {
         type: 'input',
         name: 'license',
-        message: 'What\'s is the license',
+        message: 'What is the license',
         default: function () {
             return 'MIT';
         }
